@@ -3,6 +3,7 @@
   mini side="left" :mini-width="200" behavior="desktop"  :content-class="$q.theme === 'mat' ? 'bg-grey-3' : null"
      v-model="leftDrawerOpen"
       >
+      <br>
     <br><br>
     <drawer-content></drawer-content>
   </q-layout-drawer>
